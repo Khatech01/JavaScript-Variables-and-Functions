@@ -31,3 +31,16 @@ function conversation(){
     console.log("Goodbye");
 }
 conversation()    
+
+
+//MULTIPLE PARAMETERS
+// Name and Age are declared in line 38 no need to declare again an identifier for name and age in line below 38/40
+// example: function futureAge (name, age){
+    // let name = 
+    // let age = 
+function futureAge (name, age){
+        const ageIn5years = age + 5;
+            return "Hi " + name + " ! " + "You will " + ageIn5years + " years old in 5 years";
+        }
+    
+console.log(futureAge('Helene',20));
